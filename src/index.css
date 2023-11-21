@@ -1,0 +1,27 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+#scene {
+  height: 100dvh;
+  width: 100%;
+}
